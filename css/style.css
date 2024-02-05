@@ -110,7 +110,7 @@ body {
   
     /* Opcional: Estilos para simular la barra de título de una ventana de terminal */
     &::before {
-      content: "Resultado Del Proceso de Ecriptación/Desencriptacións";
+      content: "Resultado Del Proceso de Ecriptación/Desencriptación";
       display: block;
       padding: 5px;
       color: #00ff00;
@@ -167,8 +167,8 @@ body {
     padding: 20px; /* Ajusta el padding para pantallas más pequeñas */
   }
 .logo-img {
-    width: 250;
-    height: 50;
+    width: 250px;
+    height: 50px;
   }
   input, select, button, textarea {
     width: 100%; /* Ajusta el ancho de los elementos de formulario */
@@ -176,8 +176,8 @@ body {
   }
 
   button {
-    width: 100%
-    padding: 24px; /* Ajusta el padding del botón */
+    width: 100%;
+    padding: 50px; /* Ajusta el padding del botón */
   }
 }
 
