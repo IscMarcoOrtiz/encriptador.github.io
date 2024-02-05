@@ -163,7 +163,7 @@ body {
   
 /* Estilos para pantallas pequeñas (tabletas y móviles) */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 7000px) {
   .container {
     padding: 20px; /* Ajusta el padding para pantallas más pequeñas */
   }
