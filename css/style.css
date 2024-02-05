@@ -166,7 +166,10 @@ body {
   .container {
     padding: 20px; /* Ajusta el padding para pantallas más pequeñas */
   }
-
+.logo-img {
+    width: 250;
+    height: 50;
+  }
   input, select, button, textarea {
     width: 100%; /* Ajusta el ancho de los elementos de formulario */
     margin-bottom: 15px; /* Espaciado inferior para separar los elementos */
