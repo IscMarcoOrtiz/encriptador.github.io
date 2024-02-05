@@ -176,8 +176,9 @@ body {
   }
 
   button {
-    width: 100%;
-    padding: 50px; /* Ajusta el padding del botón */
+    width: calc(100% - 30px);
+    margin: 10px 0;
+    padding: 12px;/
   }
 }
 
