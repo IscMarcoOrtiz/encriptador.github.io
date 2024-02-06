@@ -175,7 +175,7 @@ body {
     margin-bottom: 15px; /* Espaciado inferior para separar los elementos */
   }
 
-  button {
+  .button {
     width: calc(100% - 30px);
     margin: 10px 0;
     padding: 12px;
