@@ -170,7 +170,7 @@ body {
     width: 250px;
     height: 50px;
   }
-  input, select, button, textarea {
+  input, select, textarea {
     width: 100%; /* Ajusta el ancho de los elementos de formulario */
     margin-bottom: 15px; /* Espaciado inferior para separar los elementos */
   }
