@@ -176,8 +176,8 @@ body {
   }
 
   .button {
-    width: calc(100% - 30px);
-    margin: 10px 0;
+    max-width: 20%;
+    margin: 10px 5px;
     padding: 12px;
   }
 }
