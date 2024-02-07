@@ -25,6 +25,7 @@ function animarTexto(resultadoEncriptado) {
     } else {
         if (!isValidInput(output)) {
             Alertas("error", "Por favor, ingresa un mensaje sin Mayúsculas, Acentos o Caracteres especiales");
+		input.focus();
             return;
         } else {
           // Definir un objeto de correspondencias para mapear las combinaciones a sus reemplazos
@@ -60,6 +61,7 @@ input.focus();
     } else {
         if (!isValidInput(output)) {
             Alertas("error", "Por favor, ingresa un mensaje sin mayúsculas o caracteres especiales");
+		input.focus();
             return;
         } else {
            // Definir un objeto de correspondencias para mapear las combinaciones a sus reemplazos
@@ -162,4 +164,5 @@ const typed = new Typed('.typed',{
 });
   
 updateCharCount();
+document.getElementById('text').focus();
 
