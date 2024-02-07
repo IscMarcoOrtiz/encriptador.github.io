@@ -4,7 +4,7 @@ function animarTexto(resultadoEncriptado) {
 
 	// Animar el texto encriptado con GSAP
 	gsap.to(outputText, {
-		duration: 2,
+		duration: 3,
 		text: resultadoEncriptado,
 		ease: "none",
 	});
@@ -12,7 +12,7 @@ function animarTexto(resultadoEncriptado) {
 
   // Función para validar la entrada de texto
   function isValidInput(text) {
-    var regex = /^[a-z ,.]+$/;
+    var regex = /^[a-z ,.ñ]+$/;
     return regex.test(text);
   }
   function encriptar() {
@@ -47,6 +47,7 @@ function animarTexto(resultadoEncriptado) {
         }
     }
     updateCharCount();
+input.focus();
 }
 
   function desencriptar() {
@@ -80,6 +81,7 @@ function animarTexto(resultadoEncriptado) {
         }
     }
     updateCharCount();
+    input.focus();
 }
 
   
@@ -100,6 +102,7 @@ function animarTexto(resultadoEncriptado) {
     }
     copyButton.disabled = true;
     document.body.removeChild(textarea);
+    document.getElementById('text').focus();
   }
   
   // Función para mostrar mensajes de notificación
