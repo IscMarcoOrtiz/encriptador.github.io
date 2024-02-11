@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #030303;
-    background-image: url('https://steemitimages.com/p/2ufhwNgM3qHKGxq8wdcWAiFpcm29FF1vQ7VZHkTuxCjACKUPGvQYwQnHTH5vrWdWPJMAPR9qf?format=match&mode=fit');
+    background-image: url('./imagenes/fondo.gif');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -168,7 +168,7 @@ body {
   }
 .logo-img {
     width: 250px;
-    height: 50px;
+    height: 60px;
   }
   input, select, textarea {
     width: 100%; /* Ajusta el ancho de los elementos de formulario */
