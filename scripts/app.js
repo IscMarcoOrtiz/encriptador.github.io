@@ -135,14 +135,6 @@ input.focus();
     charCountElement.textContent = `Caracteres: ${charCount}/${charLimit}`;
   }
   
-  // Evento al escribir en el campo de texto
-  document.getElementById('text').addEventListener('input', function() {
-    updateCharCount();
-    var processButton = document.getElementById('processButton');
-    var text = this.value.trim();
-    processButton.disabled = text.length === 0;
-    updateCharCount();
-  });
   // funcion para animar el texto del titulo
 const typed = new Typed('.typed',{
       strings: [
