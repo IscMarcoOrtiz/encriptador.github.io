@@ -5,8 +5,8 @@ body {
   padding: 0;
   background-color: #030303;
   background-image: url("../imagenes/fondo.jpg");
-  background-repeat: repeat;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -253,6 +253,10 @@ textarea {
 
 /* Estilos para pantallas pequeñas (tabletas y móviles) */
 @media screen and (max-width: 980px) {
+  body{
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
 .container {
   padding: 20px; /* Ajusta el padding para pantallas más pequeñas */
 }
