@@ -255,7 +255,7 @@ textarea {
 @media screen and (max-width: 980px) {
   body{
       background-size: cover;
-      background-repeat: no-repeat;
+  background-repeat: no-repeat;
   }
 .container {
   padding: 20px; /* Ajusta el padding para pantallas más pequeñas */
